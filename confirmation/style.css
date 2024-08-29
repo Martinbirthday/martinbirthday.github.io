@@ -1,12 +1,12 @@
 html {
-    background: rgb(0, 0, 0)
+    background:rgb(215, 176, 106);
 }
 
 button{
     padding: 13px 30px;
     border-radius: 15px;
     border: none;
-    background: rgb(0, 0, 0);
+    background: rgb(109, 88, 88);
     color: white;
 }
 
