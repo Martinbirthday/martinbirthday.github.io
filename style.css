@@ -17,24 +17,23 @@ img{
     justify-content: center;
 }
 
-.boton2{
+.buttons-container {
+    display: flex;
+    gap: 15px; /* Espacio entre botones */
+}
+
+.boton2, .boton, button {
     padding: 5px 15px;
     border-radius: 15px;
     border: none;
     background: rgb(215, 176, 106);
     color: white;
 }
+
 h1{
     color: rgb(233, 238, 245);
     font-size: 20px;
     padding: 20px;
-}
-.boton{
-    padding: 5px 20px;
-    border-radius: 15px;
-    border: none;
-    background: rgb(215, 176, 106);
-    color: white;
 }
 
 button{
@@ -50,17 +49,17 @@ button:hover {
     animation-delay: 3s;
     transform: translate(0%, -2%) scale(1.1);
     color: rgba(255, 255, 255, 1) !important;
-    box-shadow: 0 4px 16px rgb(215, 176, 106);
+    box-shadow: 0 4px 16px rgb(193, 159, 96);
     transition: all 1.2s;
-  }
+}
 
-  button:hover:before {
+button:hover:before {
     animation-delay: 3s;
     transform: translate(0%, -2%) scale(1.1);
     color: rgba(255, 255, 255, 1) !important;
-    box-shadow: 0 4px 16px rgb(215, 176, 106);
+    box-shadow: 0 4px 16px rgb(193, 159, 96);
     transition: all 1.2s;
-  }
+}
 
 @media screen and (max-width:630px){
     h1{        
