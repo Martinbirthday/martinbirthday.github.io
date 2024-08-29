@@ -3,8 +3,15 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Cinzel Decorative", serif;
 }
+
+.cinzel-decorative-regular {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 img{
     width: 30%;
 }
@@ -25,6 +32,7 @@ img{
 .boton2, .boton, button {
     padding: 5px 15px;
     border-radius: 15px;
+    font-family: "Cinzel Decorative", serif;
     border: none;
     background: rgb(215, 176, 106);
     color: white;
@@ -40,6 +48,7 @@ button{
     padding: 13px 30px;
     border-radius: 15px;
     border: none;
+    font-family: "Cinzel Decorative", serif;
     background: rgb(215, 176, 106);
     color: white;
 }
