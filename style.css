@@ -19,7 +19,7 @@ img{
 
 .buttons-container {
     display: flex;
-    gap: 16px; /* Espacio entre botones */
+    gap: 20px; /* Espacio entre botones */
 }
 
 .boton2, .boton, button {
