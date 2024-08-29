@@ -1,12 +1,12 @@
 html {
-    background: rgb(8,28,34)
+    background: rgb(0, 0, 0)
 }
 
 button{
     padding: 13px 30px;
     border-radius: 15px;
     border: none;
-    background: rgb(15, 186, 253);
+    background: rgb(0, 0, 0);
     color: white;
 }
 
@@ -15,7 +15,7 @@ button:hover {
     animation-delay: 3s;
     transform: translate(0%, -2%) scale(1.1);
     color: rgba(255, 255, 255, 1) !important;
-    box-shadow: 0 4px 16px rgb(73, 204, 255);
+    box-shadow: 0 4px 16px rgb(0, 0, 0);
     transition: all 1.2s;
   }
 
@@ -23,7 +23,7 @@ button:hover {
     animation-delay: 3s;
     transform: translate(0%, -2%) scale(1.1);
     color: rgba(255, 255, 255, 1) !important;
-    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    box-shadow: 0 4px 16px rgb(0, 0, 0);
     transition: all 1.2s;
   }
 
